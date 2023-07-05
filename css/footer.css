@@ -1,0 +1,53 @@
+footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.keyboard-row:hover {
+    cursor: pointer;
+}
+
+.keyboard-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    border: 3px solid #d3d6da;
+    background-color: #d3d6da;
+    border-radius: 4px;
+    color: #050505;
+}
+
+.keyboard-column_wide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    border: 3px solid #d3d6da;
+    background-color: #d3d6da;
+    border-radius: 4px;
+    color: #050505;
+    font-size: 11px;
+}
+
+.backspace-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
