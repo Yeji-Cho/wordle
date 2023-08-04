@@ -1,53 +1,51 @@
 footer {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
 .keyboard-row {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    font-weight: bold;
-    font-size: larger;
-}
-
-.keyboard-row:hover {
-    cursor: pointer;
 }
 
 .keyboard-column {
+    width: 45px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 50px;
-    border: 3px solid #d3d6da;
     background-color: #d3d6da;
-    border-radius: 4px;
+    border-radius: 5px;
     color: #050505;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .keyboard-column_wide {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 50px;
+    width: 65px;
+    height: 55px;
     border: 3px solid #d3d6da;
     background-color: #d3d6da;
     border-radius: 4px;
     color: #050505;
-    font-size: 11px;
+    font-size: smaller;
+    font-weight: bold;
 }
 
 .backspace-icon {
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
 }

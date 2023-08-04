@@ -37,7 +37,7 @@ function appStart() {
       if (input_letter === answer_letter) {
         correct_no += 1;
         block.style.background = "#6AAA64";
-      } else if (정답.includes(input_letter)) block.style.background = "#C9B458";
+      } else if (answer.includes(input_letter)) block.style.background = "#C9B458";
       else block.style.background = "#787C7E";
       block.style.color = "white";
     }
